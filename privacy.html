@@ -1,70 +1,242 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <meta charset='utf-8'>
-    <meta name='viewport' content='width=device-width'>
-    <title>Privacy Policy</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>Privacy Policy - Anti Spy Camera Scanner</title>
+    <link href="https://fonts.googleapis.com/css2?family=Alice&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
         body {
-            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-            padding: 1em;
+            font-family: 'Montserrat', sans-serif;
+            background: #000000;
+            color: #FFFFFF;
+            line-height: 1.6;
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .container {
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 16px;
+            padding: 40px;
+            margin: 20px 0;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding-bottom: 30px;
+            border-bottom: 2px solid #FF4C4C;
+        }
+
+        .app-logo {
+            width: 56px;
+            height: 56px;
+            margin-bottom: 16px;
+            border-radius: 12px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            background: none;
+            /* Remove red background */
+        }
+
+        .app-logo img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 12px;
+        }
+
+
+        h1 {
+            font-family: 'Alice', serif;
+            font-size: 32px;
+            font-weight: 600;
+            color: #FF4C4C;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            color: rgba(255, 255, 255, 0.7);
+            font-size: 16px;
+            font-weight: 300;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        strong {
+            color: #FF4C4C;
+            font-size: 20px;
+            font-weight: 600;
+            display: block;
+            margin: 30px 0 15px 0;
+            padding-bottom: 8px;
+            border-bottom: 1px solid rgba(255, 76, 76, 0.3);
+        }
+
+        p {
+            margin-bottom: 15px;
+            color: rgba(255, 255, 255, 0.9);
+            font-size: 15px;
+            font-weight: 400;
+        }
+
+        ul {
+            margin: 15px 0 15px 20px;
+        }
+
+        li {
+            margin-bottom: 8px;
+            color: rgba(255, 255, 255, 0.8);
+            font-size: 14px;
+        }
+
+        a {
+            color: #FF4C4C;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        a:hover {
+            color: #CC0000;
+            text-decoration: underline;
+        }
+
+        .contact-info {
+            background: rgba(255, 76, 76, 0.1);
+            border: 1px solid rgba(255, 76, 76, 0.3);
+            border-radius: 8px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+
+        .contact-info p {
+            color: #FF4C4C;
+            font-weight: 500;
+        }
+
+        hr {
+            border: none;
+            height: 1px;
+            background: linear-gradient(90deg, transparent, #FF4C4C, transparent);
+            margin: 30px 0;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            color: rgba(255, 255, 255, 0.6);
+            font-size: 14px;
+        }
+
+        @media (max-width: 768px) {
+            body {
+                padding: 15px;
+            }
+
+            .container {
+                padding: 25px;
+            }
+
+            h1 {
+                font-size: 28px;
+            }
+
+            strong {
+                font-size: 18px;
+            }
         }
     </style>
 </head>
+<!-- The rest of your HTML content remains unchanged -->
 
 <body>
-    <strong>Privacy Policy</strong>
-    <p>This privacy policy applies to the Anti Spy Camera Scanner app (hereby referred to as "Application") for mobile devices that was created by Hrishikesh Javkar (hereby referred to as "Service Provider") as a Freemium service. This service is intended for use "AS IS".
-    </p>
-    <p>The Application provides users with a limited number of free scans, after which a subscription is required to continue using the service. This Application is provided "AS IS".
-    </p>
+    <div class="container">
+        <div class="header">
+            <div class="app-logo">
+                <img src="https://hrishikeshjavkar.github.io/AntiSpyCameraScannerPages/AppLogo.png" alt="Anti Spy Camera Logo">
+            </div>
+            <h1>Privacy Policy</h1>
+            <p class="subtitle">Anti Spy Camera Scanner</p>
+        </div>
 
-    <strong>Information Collection and Use</strong>
-    <p>The Application itself does not collect any personally identifiable information directly. However, third-party services integrated into the Application — such as Firebase and RevenueCat — may collect certain non-personally identifiable information automatically when you use the app. This may include:
-    </p>
-    <ul>
-        <li>Your device's Internet Protocol address (e.g. IP address)</li>
-        <li>The pages of the Application that you visit, the time and date of your visit, the time spent on those pages</li>
-        <li>The time spent on the Application</li>
-        <li>The operating system you use on your mobile device</li>
-    </ul>
-    <p>The Application does not collect or store precise location data from your device.</p>
-    <p>We do not collect your name, email address, or any other personal identifiers. As a result, we do not use your information to contact you for marketing, promotions.
-    </p><br>
-    <strong>Third Party Access</strong>
-    <p>The Application does not collect personal information directly. However, it integrates third-party services that may collect and process anonymized, aggregated data to help improve the Application and its performance.
-    </p>
-    <p>
-        These third-party services operate independently and have their own privacy policies regarding the collection and use of data. We encourage you to review their policies to understand how your data may be handled.
-    </p>
-    <div>
+
+        <p>This privacy policy applies to the Anti Spy Camera Scanner app (hereby referred to as "Application") for mobile devices that was created by Hrishikesh Javkar (hereby referred to as "Service Provider") as a Freemium service. This service is intended for use "AS IS".</p>
+
+        <p>The Application provides users with a limited number of free scans, after which a subscription is required to continue using the service. This Application is provided "AS IS".</p>
+
+        <strong>Information Collection and Use</strong>
+        <p>The Application itself does not collect any personally identifiable information directly. However, third-party services integrated into the Application — such as Firebase and RevenueCat — may collect certain non-personally identifiable information automatically when you use the app. This may include:</p>
         <ul>
-            <li><a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener noreferrer">Google Analytics for Firebase</a></li>
-            <li><a href="https://firebase.google.com/support/privacy/" target="_blank" rel="noopener noreferrer">Firebase Crashlytics</a></li>
-            <li><a href="https://www.revenuecat.com/privacy" target="_blank" rel="noopener noreferrer">RevenueCat</a></li>
+            <li>Your device's Internet Protocol address (e.g. IP address)</li>
+            <li>The pages of the Application that you visit, the time and date of your visit, the time spent on those pages</li>
+            <li>The time spent on the Application</li>
+            <li>The operating system you use on your mobile device</li>
         </ul>
+        <p>The Application does not collect or store precise location data from your device.</p>
+        <p>We do not collect your name, email address, or any other personal identifiers. As a result, we do not use your information to contact you for marketing, promotions.</p>
+
+        <strong>Third Party Access</strong>
+        <p>The Application does not collect personal information directly. However, it integrates third-party services that may collect and process anonymized, aggregated data to help improve the Application and its performance.</p>
+        <p>These third-party services operate independently and have their own privacy policies regarding the collection and use of data. We encourage you to review their policies to understand how your data may be handled.</p>
+        <div>
+            <ul>
+                <li><a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener noreferrer">Google Analytics for Firebase</a></li>
+                <li><a href="https://firebase.google.com/support/privacy/" target="_blank" rel="noopener noreferrer">Firebase Crashlytics</a></li>
+                <li><a href="https://www.revenuecat.com/privacy" target="_blank" rel="noopener noreferrer">RevenueCat</a></li>
+            </ul>
+        </div>
+        <p>The Service Provider may disclose User Provided and Automatically Collected Information:</p>
+        <ul>
+            <li>as required by law, such as to comply with a subpoena, or similar legal process;</li>
+            <li>when they believe in good faith that disclosure is necessary to protect their rights, protect your safety or the safety of others, investigate fraud, or respond to a government request;</li>
+            <li>with their trusted services providers who work on their behalf, do not have an independent use of the information we disclose to them, and have agreed to adhere to the rules set forth in this privacy statement.</li>
+        </ul>
+
+        <strong>Opt-Out Rights</strong>
+        <p>You can stop all collection of information by the Application easily by uninstalling it. You may use the standard uninstall processes as may be available as part of your mobile device or via the mobile application marketplace or network.</p>
+
+        <strong>Data Retention Policy</strong>
+        <p>The Service Provider does not collect personally identifiable user data directly through the Application. However, if any User Provided Data is submitted (e.g., through support emails), it will be retained for as long as necessary to provide support and maintain the Application, and for a reasonable period thereafter. If you wish to request deletion of any such data, please contact the Service Provider at hrishikesh.javkar@gmail.com. Reasonable efforts will be made to respond and comply with your request in a timely manner.</p>
+
+        <strong>Children</strong>
+        <p>The Service Provider does not use the Application to knowingly solicit data from or market to children under the age of 13.</p>
+        <div>
+            <p>The Application does not address anyone under the age of 13. The Service Provider does not knowingly collect personally identifiable information from children under 13 years of age. In the case the Service Provider discover that a child under 13 has provided personal information, the Service Provider will immediately delete this from their servers. If you are a parent or guardian and you are aware that your child has provided us with personal information, please contact the Service Provider (hrishikesh.javkar@gmail.com) so that they will be able to take the necessary actions.</p>
+        </div>
+
+        <strong>Security</strong>
+        <p>The Service Provider is committed to safeguarding the confidentiality of your information. To protect the data processed and maintained through the Application, the Service Provider implements appropriate physical, electronic, and procedural safeguards. While the Service Provider strives to use commercially acceptable means to protect your information, please be aware that no method of transmission over the Internet or method of electronic storage is 100% secure, and therefore absolute security cannot be guaranteed.</p>
+
+        <strong>Changes</strong>
+        <p>This Privacy Policy may be updated from time to time for any reason. The Service Provider will notify you of any changes by updating this page with the revised Privacy Policy. You are advised to review this Privacy Policy periodically for any changes. Continued use of the Application after any modifications to the Privacy Policy will constitute your acknowledgment of the modifications and your consent to abide and be bound by the updated Privacy Policy.</p>
+        <p>This privacy policy is effective as of 2025-07-23</p>
+
+        <strong>Your Consent</strong>
+        <p>By using the Application, you are consenting to the processing of your information as set forth in this Privacy Policy now and as amended by us.</p>
+
+        <strong>Contact Us</strong>
+        <div class="contact-info">
+            <p>If you have any questions regarding privacy while using the Application, or have questions about the practices, please contact the Service Provider via email at hrishikesh.javkar@gmail.com.</p>
+        </div>
     </div>
-    <p>The Service Provider may disclose User Provided and Automatically Collected Information:</p>
-    <ul>
-        <li>as required by law, such as to comply with a subpoena, or similar legal process;</li>
-        <li>when they believe in good faith that disclosure is necessary to protect their rights, protect your safety or the safety of others, investigate fraud, or respond to a government request;</li>
-        <li>with their trusted services providers who work on their behalf, do not have an independent use of the information we disclose to them, and have agreed to adhere to the rules set forth in this privacy statement.</li>
-    </ul>
-    <p></p><br><strong>Opt-Out Rights</strong>
-    <p>You can stop all collection of information by the Application easily by uninstalling it. You may use the standard uninstall processes as may be available as part of your mobile device or via the mobile application marketplace or network.</p><br>
-    <strong>Data Retention Policy</strong>
-    <p>The Service Provider does not collect personally identifiable user data directly through the Application. However, if any User Provided Data is submitted (e.g., through support emails), it will be retained for as long as necessary to provide support and maintain the Application, and for a reasonable period thereafter. If you wish to request deletion of any such data, please contact the Service Provider at hrishikesh.javkar@gmail.com. Reasonable efforts will be made to respond and comply with your request in a timely manner..</p><br>
-    <strong>Children</strong>
-    <p>The Service Provider does not use the Application to knowingly solicit data from or market to children under the age of 13.</p>
-    <div>
-        <p>The Application does not address anyone under the age of 13. The Service Provider does not knowingly collect personally identifiable information from children under 13 years of age. In the case the Service Provider discover that a child under 13 has provided personal information, the Service Provider will immediately delete this from their servers. If you are a parent or guardian and you are aware that your child has provided us with personal information, please contact the Service Provider (hrishikesh.javkar@gmail.com) so that they will be able to take the necessary actions.</p>
-    </div><!----><br><strong>Security</strong>
-    <p>The Service Provider is committed to safeguarding the confidentiality of your information. To protect the data processed and maintained through the Application, the Service Provider implements appropriate physical, electronic, and procedural safeguards. While the Service Provider strives to use commercially acceptable means to protect your information, please be aware that no method of transmission over the Internet or method of electronic storage is 100% secure, and therefore absolute security cannot be guaranteed.</p><br><strong>Changes</strong>
-    <p>This Privacy Policy may be updated from time to time for any reason. The Service Provider will notify you of any changes by updating this page with the revised Privacy Policy. You are advised to review this Privacy Policy periodically for any changes. Continued use of the Application after any modifications to the Privacy Policy will constitute your acknowledgment of the modifications and your consent to abide and be bound by the updated Privacy Policy.</p>
-    <p>This privacy policy is effective as of 2025-07-23</p><br><strong>Your Consent</strong>
-    <p>By using the Application, you are consenting to the processing of your information as set forth in this Privacy Policy now and as amended by us.</p><br><strong>Contact Us</strong>
-    <p>If you have any questions regarding privacy while using the Application, or have questions about the practices, please contact the Service Provider via email at hrishikesh.javkar@gmail.com.</p>
-    <hr>
+
+    <div class="footer">
+        <p>© 2025 Hrishikesh Javkar. All rights reserved.</p>
+    </div>
 </body>
+
 </html>
