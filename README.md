@@ -1,1 +1,1 @@
-# AntiSpyCameraScannerPages
+# AntiSpyPages
